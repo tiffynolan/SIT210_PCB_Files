@@ -1,0 +1,167 @@
+{
+  "uuid": "5fa2bf03e96176a5764dfd5b80170ffd",
+  "path": "Offline/RPi_Argon_WateringSystem",
+  "name": "RPi_Argon_WateringSystem",
+  "content": "RPi and Particle Argon Indoor Plant Self-Watering System",
+  "created_at": "2021-05-22 19:10:10",
+  "updated_at": "2021-05-22 23:11:31",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ffc79ebf0b28dc6ee473642f9f0bc638",
+      "title": "Schematic_RPi_Argon_Watering_System",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "08f112680c844ba8adcb995f0b787067": 1,
+        "a66a70a443714b20aa4dc1026576263f": 1,
+        "bb009484ef804a24ac5d18c54b249586": 2,
+        "6791945b364d46168c8f75cee30da521": 1,
+        "966e05e58f08406c91bb5de523fdade6": 1,
+        "2558de572e2f4518a5eedacf77ed3180": 1,
+        "6604b632ff2c4571b5b0122b078db229": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PARTICLE ARGON",
+          1,
+          "PARTICLE ARGON",
+          "U1",
+          {
+            "BOM_Manufacturer": "Particle",
+            "BOM_Manufacturer Part": "Particle Argon",
+            "BOM_Supplier Part": "Particle Argon",
+            "BOM_Supplier": "Particle",
+            "puuid": "898a1c30216d4489af32b22ded978b58",
+            "uuid": "08f112680c844ba8adcb995f0b787067"
+          }
+        ],
+        [
+          "Molex 3 Pin (Capacitive Soil Moisture Sensor)",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2",
+          "M2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "33b3af72ff5b4f13b133934c18ac4426",
+            "uuid": "966e05e58f08406c91bb5de523fdade6"
+          }
+        ],
+        [
+          "DHT11 (Temp Hum Sensor)",
+          1,
+          "DHT11",
+          "DHT11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MAXIM",
+            "BOM_Manufacturer Part": "DS18B20+",
+            "BOM_Supplier Part": "C9753",
+            "puuid": "f8ff824f3cf74f81b6a250533f8951ab",
+            "uuid": "2558de572e2f4518a5eedacf77ed3180"
+          }
+        ],
+        [
+          "Molex 2 Pin (Pump)",
+          1,
+          "MOLEX_5MM",
+          "M1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "95fbf6e1035f4f6da407d989b3ef0ab8",
+            "uuid": "6604b632ff2c4571b5b0122b078db229"
+          }
+        ],
+        [
+          "5v Relay Module",
+          1,
+          "12V RELAY MODULE",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "b23c6360421e49fa82ca78e31b9f2f61",
+            "uuid": "6791945b364d46168c8f75cee30da521"
+          }
+        ],
+        [
+          "Raspberry Pi 3 Hat",
+          1,
+          "HDR2X20-RASPBERRY_PI_GPIO_DIRECTION",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "RaspberryPi 3",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "RaspberryPi.org",
+            "puuid": "3bcd6058c35a46bfb07422f2a134e694",
+            "uuid": "a66a70a443714b20aa4dc1026576263f"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ]
+      ],
+      "updateTime": 1621687733,
+      "createTime": 1621675943,
+      "histories": [],
+      "created_at": "2021-05-22 19:32:23",
+      "updated_at": "2021-05-22 22:48:53"
+    },
+    {
+      "uuid": "74158e820295850d3aa074d7acf4fd8e",
+      "puuid": "5fa2bf03e96176a5764dfd5b80170ffd",
+      "title": "PCB_RPi_Argon_WateringSystem",
+      "filename": "PCB_RPi_Argon_WateringSystem.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "898a1c30216d4489af32b22ded978b58": 1,
+        "3bcd6058c35a46bfb07422f2a134e694": 1,
+        "c10ceb981f824896a0a3258bc821f3bc": 1,
+        "6edaa52e111d4dbb89e549fb921ba805": 1,
+        "a4dcec5e971e4d8e95d39c31e467fd3c": 1,
+        "f8ff824f3cf74f81b6a250533f8951ab": 1
+      },
+      "BOM": [],
+      "updateTime": 1621689091,
+      "createTime": 1621683559,
+      "histories": [],
+      "created_at": "2021-05-22 21:39:19",
+      "updated_at": "2021-05-22 23:11:31"
+    }
+  ],
+  "sort": [],
+  "title": "RPi_Argon_WateringSystem",
+  "foldername": "RPi_Argon_WateringSystem",
+  "schfilename": "RPi_Argon_WateringSystem.json",
+  "schfilemtime": 1621687733047
+}
